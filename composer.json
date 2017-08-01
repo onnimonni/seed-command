@@ -1,5 +1,5 @@
 {
-    "name": "wp-cli/db-command",
+    "name": "onnimonni/seed-command",
     "description": "Installs WordPress and generates seed data from plugins.",
     "type": "wp-cli-package",
     "homepage": "https://github.com/onnimonni/seed-command",
