@@ -1,0 +1,35 @@
+{
+    "name": "wp-cli/db-command",
+    "description": "Installs WordPress and generates seed data from plugins.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/onnimonni/seed-command",
+    "support": {
+        "issues": "https://github.com/onnimonni/seed-command/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Onni Hakala",
+            "email": "onni@keksi.io",
+            "homepage": "https://github.com/onnimonni"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"": "src/"},
+        "files": [ "seed-command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "bundled": true,
+        "commands": [
+            "seed install"
+        ]
+    }
+}
